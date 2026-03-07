@@ -119,7 +119,7 @@ Pack отвечает на вопросы:
 |------|-----------|----------|
 | SPF — Second Principles Framework | Parent | Этот pack следует SPF структуре и процессам |
 | FPF — First Principles Framework | Upstream meta-framework | Базовая мета-онтология; приоритет при конфликтах |
-| kids-learning-pack (опционально) | Pedagogical | Может быть переиспользован в обучении специалистов |
+| SPF-Kids-Learning-Pack (опционально) | Pedagogical | Может быть переиспользован в обучении специалистов |
 
 ---
 
