@@ -11,7 +11,7 @@
 | SPI-W11-001 | Ревизия `pack/01-domain-contract` | pending | `01A..01D` взаимно согласованы; нет противоречий между контекстом, distinctions и rationale |
 | SPI-W11-002 | Сверка `pack/02-domain-entities` с `pack/03-methods` | done | `02C-methods-index.md` покрывает UP.M.001..010; у каждого метода есть валидные роли/объекты |
 | SPI-W11-003 | Обновление `pack/04-work-products` под цикл внедрения | done | Актуализированы шаблоны 01..04; добавлены явные шаги контроля и отчётности |
-| SPI-W11-004 | Доработка `pack/05-failure-modes` и связка с методами | pending | Для ключевых failure modes есть привязка к методам и управленческим решениям |
+| SPI-W11-004 | Доработка `pack/05-failure-modes` и связка с методами | done | Для ключевых failure modes есть привязка к методам и управленческим решениям |
 | SPI-W11-005 | Недельная интеграционная проверка Pack | pending | `00-pack-manifest.md`, `ontology.md` и разделы 01..07 согласованы по терминам и ссылкам |
 
 ## План на сегодня (2026-03-08)
@@ -153,6 +153,20 @@
 - Message: `close SPI-W11-002 and must-fix for SPI-W11-003`
 - Branch: `main`
 - Push: `origin/main`
+
+## Close Capture (2026-03-08, SPI-W11-004)
+
+### Что закрыто
+
+| РП | Статус | Основание |
+|---|---|---|
+| SPI-W11-004 | done | В `pack/05-failure-modes/01-failure-modes-catalog.md` добавлена явная матрица `FM -> UP.M -> управленческое решение`; индекс FM расширен колонками методов и управленческих решений |
+
+### Артефакты (capture)
+
+1. `pack/05-failure-modes/01-failure-modes-catalog.md` — добавлена секция `Матрица связки ключевых failure modes с методами и управленческими решениями (SPI-W11-004)`.
+2. `pack/05-failure-modes/01-failure-modes-catalog.md` — расширен `Failure Modes Index`: добавлены колонки `Метод(ы)` и `Управленческое решение` для всех текущих FM.
+3. `pack/05-failure-modes/01-failure-modes-catalog.md` — исправлена ссылка `OA.D.002` -> `D.002` в FM.MOD.001.
 
 ## Бэклог из W10 (источник задач)
 
