@@ -168,7 +168,7 @@ Pack отвечает на вопросы:
 
 | Section | Item Count | Lifecycle | Status |
 |---------|------------|-----------|--------|
-| Design Rationale Records (DRR) | 4 | Shape | complete |
+| Design Rationale Records (DRR) | 5 | Shape | complete |
 | Distinctions | 11 | Shape | complete |
 | Roles | 6 | Shape | complete |
 | Physical Principles | 5 | Shape | complete |
@@ -232,3 +232,4 @@ Pack отвечает на вопросы:
 | 2026-02-22 | FPF compliance: добавлен DRR (01C, 4 записи DRR.001–004); обновлены lifecycle статусы (Explore/Shape/Evidence/Operate); добавлен FPF→SPF Bridge в manifest | Асфандияров |
 | 2026-02-22 | Economic Work extension: Register Bridge (01D), Work-Ledger шаблон (WP.04), OA.EW.001–002, FM.EW.001 — разделение физического и экономического регистров | Асфандияров |
 | 2026-03-08 | Интеграционная синхронизация W11: заполнены ontology/tools/map, выровнены content-summary и entity-index под фактический состав Pack | Асфандияров |
+| 2026-03-10 | Синхронизация diagnostic-layer: добавлен DRR.005 про ГДИ как метод vs контур, обновлён tools index и bounded context | Асфандияров |
